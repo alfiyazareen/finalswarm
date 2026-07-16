@@ -1,0 +1,8 @@
+services:
+  app:
+    image : java-demo
+    ports :
+      - "8080:8080"
+    deploy :
+        replicas : 2
+
